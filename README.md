@@ -16,7 +16,7 @@ Being on a Mac and having XCode installed are required. This script works on Mac
 
 **Next:**
 
-    $ make
+     $ make
     gcc -c -o build/main.o main.m
     gcc -o apple-calendar build/main.o -lobjc -framework Foundation -framework EventKit
      $
